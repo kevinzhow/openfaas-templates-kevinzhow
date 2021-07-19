@@ -10,6 +10,17 @@ $ faas-cli template pull https://github.com/kevinzhow/openfaas-templates-kevinzh
 $ faas-cli new --lang swift-static <name>
 ```
 
+## demo
+
+You can deploy the `demo.yml` to see if it works on your enviroment.
+
+```
+faas-cli deploy -f https://raw.githubusercontent.com/kevinzhow/openfaas-templates-kevinzhow/master/demo.yml
+
+echo Hello World | faas-cli invoke hello-swift
+```
+
+
 ## requirement
 
 | Architucture | 
