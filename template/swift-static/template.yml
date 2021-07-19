@@ -1,0 +1,2 @@
+language: swift-static
+fprocess: ./handler
