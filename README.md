@@ -4,6 +4,12 @@
 This template takes the advantages of [Docker' multi-stage builds](https://docs.docker.com/develop/develop-images/multistage-build/) to shrink the function's docker image size.
 
 
+| Image | State |
+| ------------- | ------------- | 
+| [th089/swift:5.4.1-focal](https://hub.docker.com/r/th089/swift/tags?page=1&ordering=last_updated)  |  build |
+| [alpine:latest](https://hub.docker.com/layers/alpine/library/alpine/latest/images/sha256-8d99168167baa6a6a0d7851b9684625df9c1455116a9601835c2127df2aaa2f5?context=explore) | run |
+
+
 ## usage
 ```
 $ faas-cli template pull https://github.com/kevinzhow/openfaas-templates-kevinzhow.git
