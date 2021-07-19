@@ -28,7 +28,6 @@ echo Hello World | faas-cli invoke hello-swift
 | arm64  | 
 | amd64 | 
 
-This Template had tested on raspberrypi 3 with [raspios-buster-arm64-lite](https://downloads.
-raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/).
+This Template had tested on raspberrypi 3 with [raspios-buster-arm64-lite](https://downloads.raspberrypi.org/raspios_lite_arm64/images/raspios_lite_arm64-2021-05-28/).
 
 *It did not work with armhf.*
